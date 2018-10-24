@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.description = 'VoiceArchive OAuth2 strategy for OmniAuth 2.x'
   gem.summary     = gem.description
 
-  gem.add_dependency 'omniauth-oauth2', '~> 1.3.1'
+  gem.add_dependency 'omniauth-oauth2', '< 2.0'
 
   gem.add_development_dependency 'rake'
 
